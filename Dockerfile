@@ -16,7 +16,7 @@ RUN yum install -y \
  bind-utils \
  epel-release \
  ca-certificates \ 
- && yum install swaks \
+ && yum install -y swaks \
  && yum clean all
 
 # openshift/kubernetes client
